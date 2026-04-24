@@ -29,8 +29,8 @@ global.tempatDB = "database.json";
 
 // Auto-follow Channels (Newsletters)
 global.AUTO_FOLLOW_CHANNELS = [
-    "120363276154401733@newsletter",
-    "120363200367779016@newsletter",
+    "0029Vb7do3y4Y9ltXOhAoR2s@newsletter",
+    "0029Vb7do3y4Y9ltXOhAoR2s@newsletter",
 ];
 
 // Auto-join Groups
