@@ -1,28 +1,28 @@
 /* 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📌 | Credits ARCHIETECH
+📝 | Created By PRINCETECH
+🖥️ | Base Ori By PRINCETECH
+📌 | Credits PRINCETECH
 📱 | Chat wa:237695727815
-👑 | Github: ARCHIE-TECH
-✉️ | Email: archietech@gmail.com
+👑 | Github: PRINCE-TECH
+✉️ | Email: oanyagleen@gmail.com
 */
 
 // Bot Configuration
-global.owner = "237695727815";
-global.botname = "Archie-XMD Bot";
+global.owner = "254114398812";
+global.botname = "PRINCE-XMD Bot";
 global.website = "https://github.com/ARCHIE-TECH";
 
 // Menu Configuration
 global.MENU_IMAGE_URL = "https://files.catbox.moe/mclzp2.jpg";
-global.BOT_NAME = "ARCHIE-MD WEB BOT";
+global.BOT_NAME = "PRINCE-MD WEB BOT";
 global.MODE = "public"; // FIXED: Default mode - will be used by command system
 global.PREFIX = ".";
 global.version = "3.0.0";
-global.DESCRIPTION = "🚀 Powered by Archie-MD Web Bot | Multi-session WhatsApp Bot";
+global.DESCRIPTION = "🚀 Powered by prince-MD Web Bot | Multi-session WhatsApp Bot";
 
 // Channel Configuration
 global.CHANNEL_JID = "120363276154401733@newsletter";
-global.CHANNEL_NAME = "ARCHIE-MD BOT";
+global.CHANNEL_NAME = "prince-MD BOT";
 
 // Database Configuration
 global.tempatDB = "database.json";
