@@ -1,54 +1,67 @@
 {
-  "name": "prince-xmd-bot",
-  "version": "3.0.0",
-  "description": "WhatsApp Bot with Web-Based Pairing",
-  "main": "server.js",
+  "name": "@borewit/text-codec",
+  "version": "0.2.0",
+  "description": "Text Decoder",
+  "type": "module",
+  "exports": "./lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "test": "echo \"No tests specified\" && exit 0",
-    "telegram-setup": "node telegram-setup.js setup",
-    "telegram-status": "node telegram-setup.js status",
-    "telegram-help": "node telegram-setup.js help"
+    "clean": "del-cli lib/**/*.js lib/***.js.map test/**/*.d.ts test/**/*.js test/**/*.js.map",
+    "build": "npm run compile",
+    "prepublishOnly": "npm run build",
+    "compile:src": "tsc --p lib --sourceMap false",
+    "compile:test": "tsc --p test",
+    "compile": "npm run compile:src && npm run compile:test",
+    "lint": "biome check",
+    "test": "mocha",
+    "update-biome": "npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/biome migrate --write"
   },
-  "dependencies": {
-    "@hapi/boom": "^10.0.0",
-    "@whiskeysockets/baileys": "^6.7.7",
-    "awesome-phonenumber": "^2.64.0",
-    "axios": "^1.13.1",
-    "chalk": "^4.1.2",
-    "cheerio": "^1.0.0",
-    "express": "^4.18.2",
-    "express-rate-limit": "^8.2.1",
-    "express-slow-down": "^3.0.1",
-    "file-type": "^16.5.3",
-    "fluent-ffmpeg": "^2.1.2",
-    "link-preview-js": "^3.1.0",
-    "moment-timezone": "^0.5.34",
-    "mongoose": "^7.3.4",
-    "node-cache": "^5.1.2",
-    "node-fetch": "^2.6.7",
-    "node-telegram-bot-api": "^0.61.0",
-    "node-webpmux": "^3.1.0",
-    "p-queue": "^9.0.1",
-    "pino": "^10.1.0",
-    "qrcode": "^1.5.3",
-    "qrcode-terminal": "^0.12.0",
-    "readline": "^1.3.0",
-    "sharp": "^0.33.5",
-    "socket.io": "^4.7.2",
-    "ssh2": "^1.17.0",
-    "telegraf": "^4.0.0"
+  "devDependencies": {
+    "@biomejs/biome": "2.1.4",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   },
   "keywords": [
-    "whatsapp-bot",
-    "baileys",
-    "web-dashboard",
-    "automation"
+    "TextDecoder",
+    "TextEncoder",
+    "decoder",
+    "decoding",
+    "encod",
+    "encoding",
+    "decode",
+    "text",
+    "ascii",
+    "utf-8",
+    "utf8",
+    "utf-16le",
+    "latin1",
+    "iso-8859-1",
+    "windows-1252",
+    "charset",
+    "encoding",
+    "decoding",
+    "polyfill",
+    "character-set",
+    "latin",
+    "hermes",
+    "react"
   ],
-  "author": "Princetech",
-  "license": "MIT",
-  "engines": {
-    "node": ">=16.0.0"
-  }
+  "repository": "Borewit/text-codec",
+  "author": {
+    "name": "Borewit",
+    "url": "https://github.com/Borewit"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Borewit"
+  },
+  "license": "MIT"
 }
