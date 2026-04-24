@@ -1,18 +1,18 @@
 
 /* > Recode script give credits to›
-ARCHIETECH
+Prince Md 
 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📝 | Created By ARCHIETECH
-📌 |Credits ARCHIETECH
-📱 |Chat wa:237695727815
-👑 |Github: ARCHIE-TECH
-✉️ |Email: archietech@gmail.com
+📝 | Created By PRINCETECH
+🖥️ | Base Ori By PRINCETECH
+📝 | Created By PRINCETECH
+📌 |Credits PRINCETECH
+📱 |Chat wa:254703712475
+👑 |Github: PRINCE-TECH
+✉️ |Email: oanyagleen@gmail.com
    Developer: 
-   - ARCHIETECH (https://t.me/lopez629)
+   - PRINCETECH (telegram link)
    Follow Channel Developer:
-   - https://whatsapp.com/channel/0029VaYpDLx4tRrrrXsOvZ3U
+   - https://chat.whatsapp.com/HmmMlinfzsx9xiIX6TOqrQ?mode=gi_t
    
    
    
