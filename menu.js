@@ -146,7 +146,7 @@ module.exports = {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363276154401733@newsletter', // YOUR CHANNEL JID
+                        newsletterJid: '0029Vb7do3y4Y9ltXOhAoR2s@newsletter', // YOUR CHANNEL JID
                         newsletterName: 'ᴀʀᴄʜɪᴇ-ᴍᴅ ʙᴏᴛ',
                         serverMessageId: 143
                     }
