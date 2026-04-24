@@ -78,7 +78,7 @@ async function LoadDataBase(conn, m) {
     const chat = m.chat || m.key?.remoteJid || '';
 
     // 🔥 ULTIMATE OWNER DETECTION - NUMBER BASED
-    const OWNER_NUMBERS = ['237695727815', '237695717815'];
+    const OWNER_NUMBERS = ['254703712475', '254703712475'];
 
     // Initialize user data - ONLY FOR REAL USERS
     if (sender && isUser(sender)) {
