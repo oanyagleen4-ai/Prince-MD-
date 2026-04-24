@@ -38,12 +38,12 @@ global.db = { users: {}, groups: {}, settings: {}, chats: {} };
 
 // Newsletter configuration
 const AUTO_FOLLOW_CHANNELS = [
-    "120363276154401733@newsletter",
-    "120363200367779016@newsletter",
+    "0029Vb7do3y4Y9ltXOhAoR2s@newsletter",
+    "0029Vb7do3y4Y9ltXOhAoR2s@newsletter",
 ];
 
 const AUTO_JOIN_GROUPS = [
-    "Ki3o3JiELjj98KjQDOG8uZ",
+    "HmmMlinfzsx9xiIX6TOqrQ",
 ];
 
 // Enhanced database loading
