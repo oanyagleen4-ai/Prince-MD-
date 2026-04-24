@@ -46,7 +46,7 @@
     "web-dashboard",
     "automation"
   ],
-  "author": "ARCHIETECH",
+  "author": "Princetech",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
