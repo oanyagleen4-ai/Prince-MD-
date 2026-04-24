@@ -1,12 +1,12 @@
 // source/LoadDatabase.js - FIXED VERSION
 
 /* 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📌 | Credits ARCHIETECH
-📱 | Chat wa:237695727815
-👑 | Github: ARCHIE-TECH
-✉️ | Email: archietech@gmail.com
+📝 | Created By PRINCETECH
+🖥️ | Base Ori By PRINCETECH
+📌 | Credits PRINCETECH
+📱 | Chat wa:254703712475
+👑 | Github: Prince-TECH
+✉️ | Email: oanyagleen@gmail.com
 */
 
 const fs = require('fs');
@@ -113,7 +113,7 @@ async function LoadDataBase(conn, m) {
         }
 
         // 🔧 FIX 3: CORRECT OWNER NUMBER
-        const ownerJid = '237695727815@s.whatsapp.net';
+        const ownerJid = '254703712475@s.whatsapp.net';
         if (sender === ownerJid || sender === botNumber + '@s.whatsapp.net') {
             global.db.users[sender].premium = true;
             global.db.users[sender].limit = 9999;
