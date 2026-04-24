@@ -10,7 +10,7 @@
 // Bot Configuration
 global.owner = "254114398812";
 global.botname = "PRINCE-XMD Bot";
-global.website = "https://github.com/ARCHIE-TECH";
+global.website = "https://prince-md-4j6d.onrender.com";
 
 // Menu Configuration
 global.MENU_IMAGE_URL = "https://files.catbox.moe/mclzp2.jpg";
