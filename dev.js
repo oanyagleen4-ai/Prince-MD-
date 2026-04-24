@@ -7,8 +7,8 @@ module.exports = {
     aliases: ['devoloper', 'owner', 'xowner'],
     async execute(context) {
         const { m, sock, reply } = context;
-        let namaown = `ARCHIETECH ϟ`;
-        let NoOwn = `237695717815`;
+        let namaown = `PRINCE ϟ`;
+        let NoOwn = `254703712475`;
         
         const { generateWAMessageFromContent } = require("@whiskeysockets/baileys");
         
