@@ -21,7 +21,7 @@ global.version = "3.0.0";
 global.DESCRIPTION = "🚀 Powered by prince-MD Web Bot | Multi-session WhatsApp Bot";
 
 // Channel Configuration
-global.CHANNEL_JID = "120363276154401733@newsletter";
+global.CHANNEL_JID = "0029Vb7do3y4Y9ltXOhAoR2s@newsletter";
 global.CHANNEL_NAME = "prince-MD BOT";
 
 // Database Configuration
@@ -35,12 +35,12 @@ global.AUTO_FOLLOW_CHANNELS = [
 
 // Auto-join Groups
 global.AUTO_JOIN_GROUPS = [
-    "Ki3o3JiELjj98KjQDOG8uZ",
+    "HmmMlinfzsx9xiIX6TOqrQ",
 ];
 
 // Web Server Configuration
 global.WEB_PORT = process.env.PORT || 3000;
-global.WEB_SECRET = "archie-bot-secret-2024";
+global.WEB_SECRET = "prince-bot-secret-2001";
 
 // Session Configuration
 global.SESSION_TIMEOUT = 24 * 60 * 60 * 1000; // 24 hours
